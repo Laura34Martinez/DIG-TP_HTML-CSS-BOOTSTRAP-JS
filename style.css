@@ -5,7 +5,7 @@ nav {
 }
 
 .anim-nav {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #ffffff80;
   transition: .3s;
 }
 
@@ -106,7 +106,7 @@ p {
   text-align: center;
 }
 
-#img-presentation {
+div #img-presentation {
   width: 600px;
   box-shadow: 0px 0px 6px #000;
   margin-bottom: 60px;
