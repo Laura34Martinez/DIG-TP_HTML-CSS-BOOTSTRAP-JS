@@ -125,28 +125,37 @@
           </div>
         </div>
 
-        <div class="name">
-          <div class="form-floating mb-3">
-            <input type="last-name" class="form-control" id="floatingInput" placeholder="Votre nom">
-            <label for="floatingInput">Votre nom</label>
+
+         
+          <div class="row name">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+            </div>
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+            </div>
           </div>
+
           <div class="form-floating mb-3">
-            <input type="first-name" class="form-control" id="floatingInput" placeholder="Votre prénom">
-            <label for="floatingInput">Votre prénom</label>
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">adresse@mail.com</label>
           </div>
-        </div>
+
 
         <legend><strong>Message</strong></legend>
     
         <div class="message">
-          <div class="form-floating">
-            <textarea class="form-control" placeholder="Sujet du message" id="floatingTextarea1" style="height: 50px"></textarea>
-            <label for="floatingTextarea1">Sujet du message :</label>
-          </div>
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Object du message</option>
+            <option value="1">Question</option>
+            <option value="2">SAV</option>
+            <option value="3">Devis</option>
+            <option value="3">Autre</option>
+          </select>
           <br><br>
           <div class="form-floating">
-            <textarea class="form-control" placeholder="Votre message" id="floatingTextarea2" style="height: 100px"></textarea>
-            <label for="floatingTextarea2">Votre message</label>
+            <textarea class="form-control" placeholder="Votre message" id="floatingTextarea" style="height: 100px"></textarea>
+            <label for="floatingTextarea">Votre message</label>
           </div>
         </div>
 
