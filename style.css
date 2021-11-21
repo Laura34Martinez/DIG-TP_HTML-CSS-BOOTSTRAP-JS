@@ -44,7 +44,7 @@ input.btn:hover {
   }
 
 .header {
-  background-image: url('assets/bg-header.png');
+  background-image: url('assets/img/bg-header.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
